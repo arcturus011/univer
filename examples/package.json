@@ -66,6 +66,7 @@
         "@univerjs/uni-sheets-ui": "workspace:*",
         "@univerjs/uni-slides-ui": "workspace:*",
         "@univerjs/uniscript": "workspace:*",
+        "yjs-collaborate": "workspace:*",
         "@univerjs/uniui": "workspace:*",
         "@univerjs/watermark": "workspace:*",
         "clsx": "^2.1.1",

@@ -75,5 +75,13 @@
     },
     "lint-staged": {
         "*": "eslint --fix"
+    },
+    "pnpm": {
+        "overrides": {
+          "react": "18.3.1"
+        },
+        "patchedDependencies": {
+            "yjs@13.6.18": "patches/yjs@13.6.18.patch"
+        }
     }
 }

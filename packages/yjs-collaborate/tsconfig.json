@@ -1,0 +1,10 @@
+{
+    "extends": "@univerjs/shared/tsconfigs/base",
+    "compilerOptions": {
+      "strict": false,
+        "rootDir": "src",
+        "outDir": "lib/types"
+    },
+    "references": [{ "path": "./tsconfig.node.json" }],
+    "include": ["src"],
+}

@@ -96,6 +96,7 @@ const ctx = await esbuild[args.watch ? 'context' : 'build']({
 
         // sheets-multi
         './src/sheets-multi/main.tsx',
+        './src/sheets-multi/collaboration.tsx',
 
         // sheets-uniscript
         './src/sheets-uniscript/main.ts',
